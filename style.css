@@ -1,0 +1,19 @@
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+.heading {
+    font-weight: bolder important!;
+    font-size: 20px;
+    width: 25%;
+}
+.normal {
+    font-size: 15px important!;
+    font-weight: bolder;
+    color: darkorchid;
+    float: none;
+}
+h4 {
+    color:cadetblue;
+    font-weight: bolder;
+}
