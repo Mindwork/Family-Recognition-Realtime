@@ -4,7 +4,7 @@
   <title>Realtime Image Identification</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=Tj5dBavBVvm1BHKEAx8LJxt79GFFN5CHnykmfELa_qoLtmhUWjQ1WaRpgI6aqBo-j1GvfhjTOtWUF4B1w1MsPbcbEVWW8i6QIHLgfe7pBPm4sey62omPcHfxTsS1TxPfaK0P0tY-BkKCxYqVdvPfdpn8hiRxlBZpjO_uvKU6o28QMoD_DahOdVIfhuojN9mo9GuZIvPH_SkbkyApxyCJtCp5TrYXIpA3fnkLvJCtOQU0O18crOKe4iAWCNLAtyiRLGvkO5bTRygb_BS6Bxb2RPZ6nf0h30xd_QE5sLC_rnrFBcuI6zPeLvsiWz2FWydTrlhNZOmh0ugvcsq4r10VGw" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9kb2MtMTAtM2stZG9jcy5nb29nbGV1c2VyY29udGVudC5jb20vZG9jcy9zZWN1cmVzYy9pM250ZHA1OGQ2cms5cjJpc2M3cnIwaG1rcWZtcWNjOC85OGE3a2JxajI5YWtqM2NoZ2M5YWc3NmhyOXJqMDRuby8xNjI0OTQ1Mjc1MDAwLzA5NjI4MjY0MDAxNDE4Mjg4NDAzLzA5NjI4MjY0MDAxNDE4Mjg4NDAzLzE1YTE1ZGtFamo3QXNLTWRKYWdSM3NiWFllV0dBU0NlMj9lPWRvd25sb2FkJmF1dGh1c2VyPTA"/><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
@@ -16,20 +16,22 @@
 
 <body>
     <center>
-    <h3 class=" btn btn-info heading">Realtime Image Identification</h3><br><br>
+    <h3 class=" btn btn-info heading">Realtime Face Identification</h3><br><br>
         <div class="col-lg-6 col-xs-12 col-md-6 col-sm-6 normal">
-            <h4>Model is trained on :</h4><br>
+            <h4>Model is trained for :</h4><br>
             <div>
-            glasses
-            <hr>
-            Watch
-            <hr>
-            Water bottle
-            <hr>
-            Pendant
+            Mom | Dad | Sister | Me
             </div>
             </div>
-    </center>
+<br>
+<center>
+<p class="btn btn-info">Object: <span id="result"></span></p>&nbsp;&nbsp;&nbsp;
+<p class="btn btn-info">Accuracy: <span id="accuracy"></span></p><br>
+<canvas></canvas>
+<br><br>
+<div class="footer">Developed By Gayatri Papagari</div>
+</center>
+</center>
 <script src="main.js"></script>
 </body>
 

@@ -1,6 +1,8 @@
 body {
-    background-image: url("background.jpg");
-    background-size: cover;
+background-image: url("background.jpg");
+background-size: auto;
+background-repeat:no-repeat;
+background-size:cover;
 }
 .heading {
     font-weight: bolder important!;
@@ -16,4 +18,19 @@ body {
 h4 {
     color:cadetblue;
     font-weight: bolder;
+}
+.footer {
+position:fixed;
+bottom:0;
+line-height:2;
+text-align:center;
+background-color:grey;
+color:white;
+font-weight:bolder; 
+}
+canvas {
+border:black dotted 5px;
+border-radius:20px;
+width:400px;
+height:400px;
 }
